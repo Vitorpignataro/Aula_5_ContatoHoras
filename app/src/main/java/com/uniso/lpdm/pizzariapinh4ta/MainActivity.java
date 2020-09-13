@@ -1,3 +1,7 @@
+//José vitor Alves Pignataro
+//00096150
+//Sexto Semestre Ciências da computação
+
 package com.uniso.lpdm.pizzariapinh4ta;
 
 import androidx.appcompat.app.AppCompatActivity;
