@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PizzariaPinh4ta</string>
+    <string name="Logo">Pinh4ta Pizzaria</string>
+    <string name="btnckHours">Check Hours</string>
+    <string name="btnfoodreq">Order</string>
+    <string name="btnCallKit">Kitchen</string>
+    <string name="kitchenMessage">Digite o Pedido: </string>
+    <string name="hintMessage">2 cachorrão, 1 refri...</string>
+    <string name="btnordertoKitchen">Enviar Pedido</string>
+</resources>
