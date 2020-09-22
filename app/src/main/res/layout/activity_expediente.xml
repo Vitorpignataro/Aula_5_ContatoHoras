@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ExpedienteActivity"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="#EEF6E7">
+
+
+    <TextView
+        android:id="@+id/timecount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="56sp"/>
+
+    <!--Inicia a contagem-->
+    <Button
+        android:id="@+id/btnStartcount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnIniciar"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="#84F3C6"
+        android:onClick="onClickStart"/>
+
+    <!--Pausa a contagem-->
+    <Button
+        android:id="@+id/btnStopcount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnPausar"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="#84F3C6"
+        android:onClick="onClickStop"/>
+
+    <!--Zera o contador-->
+    <Button
+        android:id="@+id/btnFinishcount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnZerar"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="#84F3C6"
+        android:onClick="onClickFinish"/>
+
+    <!--Botão de voltar no menu, chama o método que realiza essa ação-->
+    <Button
+        android:id="@+id/btnBackMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnMenuback"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:onClick="onclickBack2Menu"/>
+
+
+
+
+</LinearLayout>

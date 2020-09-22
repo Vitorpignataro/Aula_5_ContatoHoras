@@ -21,10 +21,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    //Método que chama o textview referente a horas quando clicar
+    //Método que chama a nova atividade que realiza a contagem de horas do expediente.
     public void onclickhourCheck(View view){
-        TextView chkHours = findViewById(R.id.RegHours);
-        chkHours.setText("Total de horas!");
+        Intent intent = new Intent(this, ExpedienteActivity.class);
+         startActivity(intent);
     }
     //Método que chama o textview referente a pedindo quando executar o click
     public void OnClickOrder(View view){

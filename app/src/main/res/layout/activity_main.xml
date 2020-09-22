@@ -39,6 +39,7 @@
         android:layout_gravity="center"
         android:layout_margin="20dp"
         android:onClick="onclickhourCheck"/>
+
     <!--Texto vazio 2- Registrando Pedido-->
     <TextView
         android:id="@+id/RegiPed"

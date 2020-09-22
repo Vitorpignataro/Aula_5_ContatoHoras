@@ -7,4 +7,8 @@
     <string name="kitchenMessage">Digite o Pedido: </string>
     <string name="hintMessage">2 cachorrão, 1 refri...</string>
     <string name="btnordertoKitchen">Enviar Pedido</string>
+    <string name="btnIniciar">Iniciar</string>
+    <string name="btnPausar">Pausar</string>
+    <string name="btnZerar">Zerar</string>
+    <string name="btnMenuback">Voltar</string>
 </resources>
